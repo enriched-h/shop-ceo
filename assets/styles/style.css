@@ -69,7 +69,6 @@
 .shop {
     min-height: 100vh;
 	text-align: center;
-	background: url('ceo.png') top center;
 
 }
 .shop:before{
