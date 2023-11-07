@@ -60,7 +60,7 @@
 
 .home {
     height: 100vh;
-    background: url('assets/img/ceo.jpg') top center; 
+    background: url('../img/ceo.png') top center; 
     background-size: cover;
     background-position: center;
 }
@@ -69,7 +69,7 @@
 .shop {
     min-height: 100vh;
 	text-align: center;
-	background: transparent;
+	background: url('ceo.png') top center;
 
 }
 .shop:before{
