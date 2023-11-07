@@ -76,53 +76,18 @@
 	z-index: -1;
 }
 
-.about{
-  position: relative;
-  width: 100%;
-  height: cover;
-  background: transparent;
- 
+.about {
+    min-height: 100vh;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8); /* Background color with 80% opacity */
+    padding: 20px; /* Add padding for better readability */
 
-
-}
-
-
-.about:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: -1;
-}
-
-.about h1, h2, p {
-  text-align: center;
-  color: #808080;
 }
 
 
 
 .contact {
-  position: relative;
-  width: 100%;
-  height: cover;
-  background: transparent;
+    min-height: 100vh;
+	text-align: center;
 
- 
-
-}
-
-.contact:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: -1;
-}
-
-.contact h1, h2, p,li, a{
-  text-align: center;
-  color: #808080;
 }
